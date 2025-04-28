@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de Banderas</title>
+    <!-- Vinculo tu CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <!-- Contenedor de la pregunta -->
+      <div id="question-container">
+        <!-- Aquí irá el texto o la imagen de la pregunta -->
+      </div>
+
+      <!-- Contenedor de las 4 opciones -->
+      <div id="options-container" class="options-grid">
+        <!-- Cada opción será un button con clase .option -->
+        <!-- Ejemplo:
+      <button class="option" data-index="0"></button>
+      <button class="option" data-index="1"></button>
+      <button class="option" data-index="2"></button>
+      <button class="option" data-index="3"></button>
+      --></div>
+
+      <!-- Feedback tras responder -->
+      <div id="feedback-container" class="hidden">
+        <!-- Mensaje “Correcto!” o “Incorrecto. La respuesta era …” -->
+      </div>
+
+      <!-- Botón para avanzar a la siguiente pregunta -->
+      <button id="next-button" disabled>Siguiente pregunta</button>
+
+      <!-- Contador de pregunta / progreso (opcional) -->
+      <div id="progress-container">
+        Pregunta <span id="current-question">1</span> de 10
+      </div>
+    </div>
+
+    <!-- Vinculo tu JS -->
+    <script defer src="app.js"></script>
+  </body>
+</html>
