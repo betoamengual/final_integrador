@@ -9,6 +9,12 @@
   </head>
   <body>
     <div id="game-container">
+      <!-- 1) Pide el nombre del jugador antes de comenzar -->
+      <div id="setup-container">
+        <label for="player-name">Tu nombre:</label>
+        <input id="player-name" type="text" placeholder="Ingresa tu nombre" />
+      </div>
+
       <!-- Contenedor de la pregunta -->
       <div id="question-container">
         <!-- Aquí irá el texto o la imagen de la pregunta -->
@@ -16,26 +22,39 @@
 
       <!-- Contenedor de las 4 opciones -->
       <div id="options-container" class="options-grid">
-        <!-- Cada opción será un button con clase .option -->
-        <!-- Ejemplo:
-      <button class="option" data-index="0"></button>
-      <button class="option" data-index="1"></button>
-      <button class="option" data-index="2"></button>
-      <button class="option" data-index="3"></button>
-      --></div>
+        <!-- Los botones .option se inyectan desde app.js -->
+      </div>
 
       <!-- Feedback tras responder -->
       <div id="feedback-container" class="hidden">
         <!-- Mensaje “Correcto!” o “Incorrecto. La respuesta era …” -->
       </div>
 
-      <!-- boton siguiente pregunta -->
+      <!-- Botón siguiente pregunta -->
       <button id="next-button" disabled>Siguiente pregunta</button>
 
-      <!-- Contador de pregunta / progreso (opcional) -->
+      <!-- Contador de pregunta / progreso -->
       <div id="progress-container">
         Pregunta <span id="current-question">1</span> de 10
       </div>
+
+      <!-- 2) Botón para ver el ranking (oculto hasta 20 jugadores) -->
+      <button id="btn-ranking" style="display: none; margin-top: 1em">
+        Ver ranking
+      </button>
+
+      <!-- 3) Tabla donde se mostrará el top-20 -->
+      <table
+        id="table-ranking"
+        style="width: 100%; border-collapse: collapse; margin-top: 0.5em"
+      >
+        <!-- Se llenará desde app.js -->
+      </table>
+
+      <!-- 4) Botón para reiniciar la partida -->
+      <button id="btn-restart" style="display: none; margin-top: 1em">
+        Jugar de nuevo
+      </button>
     </div>
 
     <!-- Vinculo tu JS -->
