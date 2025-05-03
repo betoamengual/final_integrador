@@ -13,10 +13,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-//  ─────────────── SERVIR FRONTEND ─────────────────
-// Todo lo que esté en /public queda disponible en la raíz.
-// Así al abrir http://localhost:3000/ te carga public/index.html
-app.use(express.static(path.join(__dirname, '../public')));
+const publicPath = path.join(__dirname, '..', '..', 'public');
+app.use(express.static(publicPath));
 
 // ─────────────── RUTAS DE LA API ────────────────
 app.use('/api/question', questionsRouter);
@@ -24,5 +22,5 @@ app.use('/api/question', questionsRouter);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 API corriendo en http://localhost:${PORT}`);
+    console.log(`🚀 Server corriendo en http://localhost:${PORT}`);
 });
