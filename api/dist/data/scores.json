@@ -1,0 +1,112 @@
+[
+  {
+    "username": "beto",
+    "correctCount": 1,
+    "totalTime": 9
+  },
+  {
+    "username": "mario",
+    "correctCount": 0,
+    "totalTime": 9
+  },
+  {
+    "username": "carla",
+    "correctCount": 1,
+    "totalTime": 35
+  },
+  {
+    "username": "virginia",
+    "correctCount": 5,
+    "totalTime": 56
+  },
+  {
+    "username": "mario",
+    "correctCount": 4,
+    "totalTime": 6
+  },
+  {
+    "username": "luis",
+    "correctCount": 3,
+    "totalTime": 57
+  },
+  {
+    "username": "carina",
+    "correctCount": 3,
+    "totalTime": 7
+  },
+  {
+    "username": "canin",
+    "correctCount": 4,
+    "totalTime": 8
+  },
+  {
+    "username": "messi",
+    "correctCount": 2,
+    "totalTime": 8
+  },
+  {
+    "username": "icardi",
+    "correctCount": 2,
+    "totalTime": 14
+  },
+  {
+    "username": "mariano",
+    "correctCount": 5,
+    "totalTime": 14
+  },
+  {
+    "username": "panchi",
+    "correctCount": 2,
+    "totalTime": 96
+  },
+  {
+    "username": "jere",
+    "correctCount": 3,
+    "totalTime": 5
+  },
+  {
+    "username": "elisa",
+    "correctCount": 1,
+    "totalTime": 15
+  },
+  {
+    "username": "socio",
+    "correctCount": 0,
+    "totalTime": 10
+  },
+  {
+    "username": "milei",
+    "correctCount": 1,
+    "totalTime": 7
+  },
+  {
+    "username": "ptuin",
+    "correctCount": 2,
+    "totalTime": 5
+  },
+  {
+    "username": "doris",
+    "correctCount": 3,
+    "totalTime": 21
+  },
+  {
+    "username": "iaylen",
+    "correctCount": 3,
+    "totalTime": 10
+  },
+  {
+    "username": "bukele",
+    "correctCount": 2,
+    "totalTime": 12
+  },
+  {
+    "username": "argentina",
+    "correctCount": 5,
+    "totalTime": 14
+  },
+  {
+    "username": "sicario",
+    "correctCount": 2,
+    "totalTime": 7
+  }
+]
