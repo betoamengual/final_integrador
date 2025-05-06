@@ -108,5 +108,15 @@
     "username": "sicario",
     "correctCount": 2,
     "totalTime": 7
+  },
+  {
+    "username": "mario castañeda",
+    "correctCount": 4,
+    "totalTime": 23
+  },
+  {
+    "username": "ignacio manco",
+    "correctCount": 4,
+    "totalTime": 12
   }
 ]
